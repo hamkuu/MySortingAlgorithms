@@ -10,6 +10,7 @@
 #include <vector>
 
 #include "BubbleSort.hpp"
+#include "QuickSort.h"
 
 template <typename T>
 void PrintArray (std::vector<T> array) {
@@ -23,27 +24,49 @@ void PrintArray (std::vector<T> array) {
     }
 }
 
+template <typename T>
+void InputDataIntoVector (std::vector<T> & array) {
+    int length;
+    printf("Enter number of elements\n");
+    scanf("%d", &length);
+    
+    array.resize(length);
+    
+    T inputData;
+    for (int i=0; i<length; ++i) {
+        std::cin >> inputData;
+        array[i] = inputData;
+        
+    }
+}
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
     
-    //printf("Enter number of elements\n");
-    //scanf("%d", &length);
-//    std::vector<double> testArray = {
-//        8, 2, 12, 0.2, 1.7,
-//        1.7, 88, 24, 32, 1.1
+    std::vector<double> testArray = {
+        8, 2, 12, 0.2, 1.7,
+        1.7, 88, 24, 32, 1.1
+    };
+    
+//    std::vector<int> testArray = {
+//        8, 2, 12, 2, 197,
+//        17, 88, 24, 32, 11
 //    };
     
-    std::vector<int> testArray = {
-        8, 2, 12, 2, 197,
-        17, 88, 24, 32, 11
-    };
+    std::cout << "original size = " << testArray.size() << std::endl;
+    
+    InputDataIntoVector(testArray);
+    
+    std::cout << "changed size = " << testArray.size() << std::endl;
     
     PrintArray(testArray);
     
-    BubbleSort(testArray);
+    std::cout << std::endl;
+    
+    //BubbleSort(testArray);
+    QuickSort(testArray);
     
     std::cout << std::endl;
     

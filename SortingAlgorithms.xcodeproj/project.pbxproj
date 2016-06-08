@@ -26,6 +26,7 @@
 		5B82B87B1D07E12F00A0F1E0 /* SortingAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B82B87E1D07E12F00A0F1E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5B82B8861D07E18300A0F1E0 /* BubbleSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
+		5B82B88B1D0810DF00A0F1E0 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				5B82B87E1D07E12F00A0F1E0 /* main.cpp */,
 				5B82B8861D07E18300A0F1E0 /* BubbleSort.hpp */,
+				5B82B88B1D0810DF00A0F1E0 /* QuickSort.h */,
 			);
 			path = SortingAlgorithms;
 			sourceTree = "<group>";
