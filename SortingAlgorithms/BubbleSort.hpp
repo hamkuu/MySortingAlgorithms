@@ -12,9 +12,33 @@
 #include <stdio.h>
 #include <vector>
 
+template <typename T>
+void Swap (T & a, T & b) {
+    
+    T tmp;
+    tmp = a;
+    a = b;
+    b = tmp;
+    
+}
 
-void Swap (double &, double &);
-
-void BubbleSort (std::vector<double> &);
+template <typename T>
+void BubbleSort (std::vector<T> & array) {
+    
+    for (int i=0; i<(array.size()-1); ++i) {
+        
+        for (int j=0; j<(array.size()-i-1); ++j) {
+            
+            if (array[j] > array[j+1]) {
+                
+                Swap(array[j], array[j+1]);
+                
+            }
+            
+        }
+        
+    }
+    
+}
 
 #endif /* BubbleSort_hpp */

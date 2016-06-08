@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5B82B87F1D07E12F00A0F1E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B82B87E1D07E12F00A0F1E0 /* main.cpp */; };
-		5B82B8871D07E18300A0F1E0 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B82B8851D07E18300A0F1E0 /* BubbleSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		5B82B87B1D07E12F00A0F1E0 /* SortingAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B82B87E1D07E12F00A0F1E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5B82B8851D07E18300A0F1E0 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
 		5B82B8861D07E18300A0F1E0 /* BubbleSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				5B82B87E1D07E12F00A0F1E0 /* main.cpp */,
-				5B82B8851D07E18300A0F1E0 /* BubbleSort.cpp */,
 				5B82B8861D07E18300A0F1E0 /* BubbleSort.hpp */,
 			);
 			path = SortingAlgorithms;
@@ -124,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B82B87F1D07E12F00A0F1E0 /* main.cpp in Sources */,
-				5B82B8871D07E18300A0F1E0 /* BubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +241,7 @@
 				5B82B8841D07E12F00A0F1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
