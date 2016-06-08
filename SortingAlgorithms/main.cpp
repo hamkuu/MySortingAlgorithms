@@ -13,8 +13,13 @@
 
 
 void PrintArray (std::vector<double> array) {
-    for (int i=0; i<array.size(); ++i) {
-        std::cout << array.at(i) << std::endl;
+//    for (int i=0; i<array.size(); ++i) {
+//        std::cout << array.at(i) << std::endl;
+//    }
+    
+    for (std::vector<double>::iterator it = array.begin();
+         it!=array.end(); ++it) {
+        std::cout << *it << std::endl;
     }
 }
 
